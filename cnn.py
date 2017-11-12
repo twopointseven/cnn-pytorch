@@ -105,25 +105,3 @@ for images, labels in test_loader:
     c += (pred == labels).sum()
 
 print(100 * c / total)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
